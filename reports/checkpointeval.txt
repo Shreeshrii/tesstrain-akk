@@ -1,0 +1,645 @@
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_1.889_75129_366500.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --model_output data/akk/tessdata_best/akkPlus_1.889_75129_366500.traineddata
+Loaded file data/akk/checkpoints/akkPlus_1.889_75129_366500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_1.889_75129_366500.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --convert_to_int \
+          --model_output data/akk/tessdata_fast/akkPlus_1.889_75129_366500.traineddata
+Loaded file data/akk/checkpoints/akkPlus_1.889_75129_366500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.01_75111_366400.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --model_output data/akk/tessdata_best/akkPlus_2.01_75111_366400.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.01_75111_366400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.01_75111_366400.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --convert_to_int \
+          --model_output data/akk/tessdata_fast/akkPlus_2.01_75111_366400.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.01_75111_366400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.311_71222_340600.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --model_output data/akk/tessdata_best/akkPlus_2.311_71222_340600.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.311_71222_340600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.311_71222_340600.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --convert_to_int \
+          --model_output data/akk/tessdata_fast/akkPlus_2.311_71222_340600.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.311_71222_340600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.431_63136_288500.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --model_output data/akk/tessdata_best/akkPlus_2.431_63136_288500.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.431_63136_288500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.431_63136_288500.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --convert_to_int \
+          --model_output data/akk/tessdata_fast/akkPlus_2.431_63136_288500.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.431_63136_288500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.603_62873_286700.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --model_output data/akk/tessdata_best/akkPlus_2.603_62873_286700.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.603_62873_286700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/akk/checkpoints/akkPlus_2.603_62873_286700.checkpoint \
+          --traineddata data/akk/akk.traineddata \
+          --convert_to_int \
+          --model_output data/akk/tessdata_fast/akkPlus_2.603_62873_286700.traineddata
+Loaded file data/akk/checkpoints/akkPlus_2.603_62873_286700.checkpoint, unpacking...
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_1.889_75129_366500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+     233   Characters
+       3   Errors
+   98.71%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.71%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       0        1        2        3   Unmarked
+       0        1        2        3   Total
+
+   Count   Missed   %Right
+     176        1    99.43   Unassigned
+      57        0   100.00   ASCII Spacing Characters
+     233        1    99.57   Total
+
+  Errors   Marked   Correct-Generated
+       1        0   {}-{𒁹}
+       1        0   {}-{𒉺}
+       1        0   {𒑏}-{𒈦}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_1.889_75129_366500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   15474   Characters
+     631   Errors
+   95.92%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.92%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     151      329      151      631   Unmarked
+     151      329      151      631   Total
+
+   Count   Missed   %Right
+   10713      421    96.07   Unassigned
+    4746       57    98.80   ASCII Spacing Characters
+       3        2    33.33   ASCII Special Symbols
+      12        0   100.00   Private Use Area
+   15474      480    96.90   Total
+
+  Errors   Marked   Correct-Generated
+      14        0   {𒅇 }-{}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_1.889_75129_366500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14960   Characters
+     513   Errors
+   96.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     144      256      113      513   Unmarked
+     144      256      113      513   Total
+
+   Count   Missed   %Right
+   10455      327    96.87   Unassigned
+    4496       73    98.38   ASCII Spacing Characters
+       9        0   100.00   Private Use Area
+   14960      400    97.33   Total
+
+  Errors   Marked   Correct-Generated
+      36        0   {𒅇 }-{}
+      11        0   {𒉭 𒆦 𒁼 𒑑 𒍜...}-{𒇸}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_1.889_75129_366500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   10973   Characters
+     350   Errors
+   96.81%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.81%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      40      216       94      350   Unmarked
+      40      216       94      350   Total
+
+   Count   Missed   %Right
+    7692      229    97.02   Unassigned
+    3273       22    99.33   ASCII Spacing Characters
+       5        5     0.00   ASCII Special Symbols
+       3        0   100.00   Private Use Area
+   10973      256    97.67   Total
+
+  Errors   Marked   Correct-Generated
+      13        0   {𒁙 𒇪 𒁚 𒇄 𒅢...}-{𒋗𒆷𒊓𒁈𒈪𒀮...}
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+*************************************************************************
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.01_75111_366400
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+     233   Characters
+       2   Errors
+   99.14%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.14%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       0        1        1        2   Unmarked
+       0        1        1        2   Total
+
+   Count   Missed   %Right
+     176        1    99.43   Unassigned
+      57        0   100.00   ASCII Spacing Characters
+     233        1    99.57   Total
+
+  Errors   Marked   Correct-Generated
+       1        0   {}-{𒉺}
+       1        0   {𒑏}-{𒈦}
+
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.01_75111_366400
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   15474   Characters
+     671   Errors
+   95.66%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.66%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     154      346      171      671   Unmarked
+     154      346      171      671   Total
+
+   Count   Missed   %Right
+   10713      421    96.07   Unassigned
+    4746       78    98.36   ASCII Spacing Characters
+       3        1    66.67   ASCII Special Symbols
+      12        0   100.00   Private Use Area
+   15474      500    96.77   Total
+
+  Errors   Marked   Correct-Generated
+      19        0   {𒎄 𒁬 𒁑 𒀹 𒁯...}-{𒄑𒁈𒌵𒁈𒋗𒌵...}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.01_75111_366400
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14960   Characters
+     494   Errors
+   96.70%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.70%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     145      251       98      494   Unmarked
+     145      251       98      494   Total
+
+   Count   Missed   %Right
+   10455      325    96.89   Unassigned
+    4496       71    98.42   ASCII Spacing Characters
+       9        0   100.00   Private Use Area
+   14960      396    97.35   Total
+
+  Errors   Marked   Correct-Generated
+      36        0   {𒅇 }-{}
+       9        0   {𒑈 𒑉 𒑊 𒂴 𒌫}-{𒀊}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.01_75111_366400
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   10973   Characters
+     370   Errors
+   96.63%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.63%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      39      221      110      370   Unmarked
+      39      221      110      370   Total
+
+   Count   Missed   %Right
+    7692      230    97.01   Unassigned
+    3273       25    99.24   ASCII Spacing Characters
+       5        5     0.00   ASCII Special Symbols
+       3        0   100.00   Private Use Area
+   10973      260    97.63   Total
+
+  Errors   Marked   Correct-Generated
+      27        0   {𒌐 𒄑 𒁍 𒐯 𒐩...}-{𒌵𒌵𒌵𒁈𒁈𒀲...}
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+*************************************************************************
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.311_71222_340600
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+     233   Characters
+       2   Errors
+   99.14%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.14%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       0        1        1        2   Unmarked
+       0        1        1        2   Total
+
+   Count   Missed   %Right
+     176        1    99.43   Unassigned
+      57        0   100.00   ASCII Spacing Characters
+     233        1    99.57   Total
+
+  Errors   Marked   Correct-Generated
+       1        0   {}-{𒁹}
+       1        0   {𒑏}-{𒈦}
+
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.311_71222_340600
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   15474   Characters
+     600   Errors
+   96.12%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.12%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     122      328      150      600   Unmarked
+     122      328      150      600   Total
+
+   Count   Missed   %Right
+   10713      410    96.17   Unassigned
+    4746       38    99.20   ASCII Spacing Characters
+       3        2    33.33   ASCII Special Symbols
+      12        0   100.00   Private Use Area
+   15474      450    97.09   Total
+
+  Errors   Marked   Correct-Generated
+      14        0   {𒅇 }-{}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.311_71222_340600
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14960   Characters
+     487   Errors
+   96.74%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.74%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     113      268      106      487   Unmarked
+     113      268      106      487   Total
+
+   Count   Missed   %Right
+   10455      324    96.90   Unassigned
+    4496       57    98.73   ASCII Spacing Characters
+       9        0   100.00   Private Use Area
+   14960      381    97.45   Total
+
+  Errors   Marked   Correct-Generated
+      36        0   {𒅇 }-{}
+      14        0   {𒋋 𒄍 𒃑 𒃓 𒄅...}-{𒊒𒁈𒄑𒈭𒄑𒁖...}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.311_71222_340600
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   10973   Characters
+     343   Errors
+   96.87%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.87%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      24      213      106      343   Unmarked
+      24      213      106      343   Total
+
+   Count   Missed   %Right
+    7692      222    97.11   Unassigned
+    3273       10    99.69   ASCII Spacing Characters
+       5        5     0.00   ASCII Special Symbols
+       3        0   100.00   Private Use Area
+   10973      237    97.84   Total
+
+  Errors   Marked   Correct-Generated
+       9        0   {}-{ }
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+*************************************************************************
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.431_63136_288500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+     233   Characters
+       2   Errors
+   99.14%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.14%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       0        1        1        2   Unmarked
+       0        1        1        2   Total
+
+   Count   Missed   %Right
+     176        1    99.43   Unassigned
+      57        0   100.00   ASCII Spacing Characters
+     233        1    99.57   Total
+
+  Errors   Marked   Correct-Generated
+       1        0   {}-{𒁹}
+       1        0   {𒑏}-{𒈦}
+
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.431_63136_288500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   15474   Characters
+     640   Errors
+   95.86%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.86%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     129      366      145      640   Unmarked
+     129      366      145      640   Total
+
+   Count   Missed   %Right
+   10713      432    95.97   Unassigned
+    4746       61    98.71   ASCII Spacing Characters
+       3        2    33.33   ASCII Special Symbols
+      12        0   100.00   Private Use Area
+   15474      495    96.80   Total
+
+  Errors   Marked   Correct-Generated
+      17        0   {𒎄 𒁬 𒁑 𒀹 𒁯...}-{𒄑𒋗𒁈𒌵𒁈𒁈...}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.431_63136_288500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14960   Characters
+     470   Errors
+   96.86%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.86%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     111      273       86      470   Unmarked
+     111      273       86      470   Total
+
+   Count   Missed   %Right
+   10455      332    96.82   Unassigned
+    4496       52    98.84   ASCII Spacing Characters
+       9        0   100.00   Private Use Area
+   14960      384    97.43   Total
+
+  Errors   Marked   Correct-Generated
+      34        0   {𒅇 }-{}
+       5        0   {𒐉}-{𒍝}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.431_63136_288500
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   10973   Characters
+     359   Errors
+   96.73%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.73%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      32      226      101      359   Unmarked
+      32      226      101      359   Total
+
+   Count   Missed   %Right
+    7692      239    96.89   Unassigned
+    3273       14    99.57   ASCII Spacing Characters
+       5        5     0.00   ASCII Special Symbols
+       3        0   100.00   Private Use Area
+   10973      258    97.65   Total
+
+  Errors   Marked   Correct-Generated
+       9        0   {}-{ }
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+*************************************************************************
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.603_62873_286700
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+     233   Characters
+       1   Errors
+   99.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       0        1        0        1   Unmarked
+       0        1        0        1   Total
+
+   Count   Missed   %Right
+     176        1    99.43   Unassigned
+      57        0   100.00   ASCII Spacing Characters
+     233        1    99.57   Total
+
+  Errors   Marked   Correct-Generated
+       1        0   {𒑰}-{𒁹}
+
+   Count   Missed   %Right
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.603_62873_286700
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   15474   Characters
+     636   Errors
+   95.89%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.89%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     128      364      144      636   Unmarked
+     128      364      144      636   Total
+
+   Count   Missed   %Right
+   10713      425    96.03   Unassigned
+    4746       64    98.65   ASCII Spacing Characters
+       3        3     0.00   ASCII Special Symbols
+      12        0   100.00   Private Use Area
+   15474      492    96.82   Total
+
+  Errors   Marked   Correct-Generated
+      17        0   {𒈔 𒉍 𒎑 𒐙 𒄡...}-{𒌵𒁈𒉆𒁈𒆧𒁈...}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.603_62873_286700
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   14960   Characters
+     508   Errors
+   96.60%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.60%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     125      279      104      508   Unmarked
+     125      279      104      508   Total
+
+   Count   Missed   %Right
+   10455      331    96.83   Unassigned
+    4496       72    98.40   ASCII Spacing Characters
+       9        1    88.89   Private Use Area
+   14960      404    97.30   Total
+
+  Errors   Marked   Correct-Generated
+      34        0   {𒅇 }-{}
+      27        0   {𒅘 𒉭 𒆦 𒁼 𒃚...}-{𒁈𒁈𒆷𒁈𒀾𒁈...}
+-----------------------------------------------------------------------------
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.603_62873_286700
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+   10973   Characters
+     388   Errors
+   96.46%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.46%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      32      223      133      388   Unmarked
+      32      223      133      388   Total
+
+   Count   Missed   %Right
+    7692      230    97.01   Unassigned
+    3273       20    99.39   ASCII Spacing Characters
+       5        5     0.00   ASCII Special Symbols
+       3        0   100.00   Private Use Area
+   10973      255    97.68   Total
+
+  Errors   Marked   Correct-Generated
+      13        0   {𒁙 𒇪 𒁚 𒇄 𒅢...}-{𒋗𒊐𒂠𒆤𒂠𒈪...}
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+*************************************************************************
+data/akk/tessdata_fast/akkPlus_1.889_75129_366500.traineddata
+data/akk/tessdata_fast/akkPlus_2.01_75111_366400.traineddata
+data/akk/tessdata_fast/akkPlus_2.311_71222_340600.traineddata
+data/akk/tessdata_fast/akkPlus_2.431_63136_288500.traineddata
+data/akk/tessdata_fast/akkPlus_2.603_62873_286700.traineddata

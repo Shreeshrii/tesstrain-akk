@@ -1,0 +1,14 @@
+Adobe Blank
+Akkadian Semi-Condensed
+CuneiformComposite
+CuneiformNAOutline Medium
+CuneiformOB
+Segoe UI Historic
+  "Akkadian Semi-Condensed" \
+  "Assurbanipal" \
+  "CuneiformComposite" \
+  "CuneiformNAOutline Medium" \
+  "CuneiformOB" \
+  "Santakku" \
+  "SantakkuM" \
+  "UllikummiA" \

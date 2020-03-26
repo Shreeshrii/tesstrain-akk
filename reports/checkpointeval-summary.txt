@@ -1,0 +1,65 @@
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_1.889_75129_366500
+   98.71%  Accuracy
+     176        1    99.43   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_1.889_75129_366500
+   95.92%  Accuracy
+   10713      421    96.07   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_1.889_75129_366500
+   96.57%  Accuracy
+   10455      327    96.87   Unassigned
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_1.889_75129_366500
+   96.81%  Accuracy
+    7692      229    97.02   Unassigned
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.01_75111_366400
+   99.14%  Accuracy
+     176        1    99.43   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.01_75111_366400
+   95.66%  Accuracy
+   10713      421    96.07   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.01_75111_366400
+   96.70%  Accuracy
+   10455      325    96.89   Unassigned
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.01_75111_366400
+   96.63%  Accuracy
+    7692      230    97.01   Unassigned
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.311_71222_340600
+   99.14%  Accuracy
+     176        1    99.43   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.311_71222_340600
+   96.12%  Accuracy
+   10713      410    96.17   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.311_71222_340600
+   96.74%  Accuracy
+   10455      324    96.90   Unassigned
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.311_71222_340600
+   96.87%  Accuracy
+    7692      222    97.11   Unassigned
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.431_63136_288500
+   99.14%  Accuracy
+     176        1    99.43   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.431_63136_288500
+   95.86%  Accuracy
+   10713      432    95.97   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.431_63136_288500
+   96.86%  Accuracy
+   10455      332    96.82   Unassigned
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.431_63136_288500
+   96.73%  Accuracy
+    7692      239    96.89   Unassigned
+------------------------------------------------------------------- Unassigned 
+------------------------------------------------------------------- Unassigned akk-Akkadian_Semi-Condensed-akkPlus_2.603_62873_286700
+   99.57%  Accuracy
+     176        1    99.43   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformComposite-akkPlus_2.603_62873_286700
+   95.89%  Accuracy
+   10713      425    96.03   Unassigned
+------------------------------------------------------------------- Unassigned akk-CuneiformOB-akkPlus_2.603_62873_286700
+   96.60%  Accuracy
+   10455      331    96.83   Unassigned
+------------------------------------------------------------------- Unassigned akk-Segoe_UI_Historic-akkPlus_2.603_62873_286700
+   96.46%  Accuracy
+    7692      230    97.01   Unassigned

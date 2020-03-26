@@ -1,11 +1,11 @@
 # tesstrain-akk
 
-Over 95% accuracy for tesseract traineddata models for Akkadian in Cuneiform script
+Over 95% accuracy on the evaluation set for Akkadian in Cuneiform script using the finetuned traineddata for tesseract 5 alpha
 
 ## Dependencies
 
 * `tesseract` built from [github master](https://github.com/tesseract-ocr/tesseract)
-* `linegen` from [kraken] (https://github.com/mittagessen/kraken)
+* `linegen` from [kraken](https://github.com/mittagessen/kraken)
 
 ## Training Input
 

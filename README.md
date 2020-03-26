@@ -1,11 +1,14 @@
 # tesstrain-akk
 
-Over 95% accuracy on the evaluation set for Akkadian in Cuneiform script using the finetuned traineddata for tesseract 5 alpha
+Finetune Training and OCR evaluation of Tesseract 5.0.0 Alpha for Akkadian in Cuneiform script with  95% accuracy on the evaluation set 
 
-## Dependencies
+## Programs used
 
 * `tesseract` built from [github master](https://github.com/tesseract-ocr/tesseract)
+*  [tesstrain Training workflow for Tesseract 4 as a Makefile](https://github.com/tesseract-ocr/tesstrain)
 * `linegen` from [kraken](https://github.com/mittagessen/kraken)
+*  [ISRI Analytic Tools for OCR Evaluation with UTF-8 support](https://github.com/eddieantonio/ocreval) 
+* [The ocrevalUAtion tool](https://sites.google.com/site/textdigitisation/ocrevaluation).
 
 ## Training Input
 

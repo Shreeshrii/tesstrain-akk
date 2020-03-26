@@ -7,8 +7,9 @@ Finetune Training and OCR evaluation of Tesseract 5.0.0 Alpha for Akkadian in Cu
 * `tesseract` built from [github master](https://github.com/tesseract-ocr/tesseract)
 *  [tesstrain Training workflow for Tesseract 4 as a Makefile](https://github.com/tesseract-ocr/tesstrain)
 * `linegen` from [kraken](https://github.com/mittagessen/kraken)
+* `create_dictdata` from [pytesstrain](https://github.com/wincentbalin/pytesstrain)
 *  [ISRI Analytic Tools for OCR Evaluation with UTF-8 support](https://github.com/eddieantonio/ocreval) 
-* [The ocrevalUAtion tool](https://sites.google.com/site/textdigitisation/ocrevaluation).
+* [The ocrevalUAtion tool](https://sites.google.com/site/textdigitisation/ocrevaluation)
 
 ## Training Input
 
